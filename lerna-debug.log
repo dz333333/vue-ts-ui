@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\17149\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'h-ui\\'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\study\zhufeng\ui
+3 error TypeError: Cannot read property 'toLocaleLowerCase' of undefined
+3 error     at camelCase (C:\study\zhufeng\ui\node_modules\@lerna\create\node_modules\yargs-parser\build\index.cjs:8:15)
+3 error     at CreateCommand.initialize (C:\study\zhufeng\ui\node_modules\@lerna\create\index.js:63:22)
