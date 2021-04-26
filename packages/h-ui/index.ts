@@ -7,7 +7,6 @@ const components = [Button, Icon, ButtonGroup];
 const install = (app: App): void => {
   components.forEach((component) => {
     console.log(component.name);
-
     //注册组件
     app.component(component.name, component);
   });

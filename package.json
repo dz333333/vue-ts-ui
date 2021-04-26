@@ -1,6 +1,9 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "vue-ts-ui-huo",
+  "private": false,
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "description": "A Personal Learning UI library For Vue",
   "workspaces": [
     "packages/*"
   ],
